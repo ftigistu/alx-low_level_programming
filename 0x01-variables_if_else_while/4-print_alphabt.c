@@ -13,7 +13,7 @@ int main(void)
 char x;
 
 x = 'a';
-while (x < 'z')
+while (x <= 'z')
 {
 if (x != 'e' && x != 'q')
 {
