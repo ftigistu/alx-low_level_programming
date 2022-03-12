@@ -17,14 +17,12 @@ while (x < 'z')
 {
 if (x != 'e' && x != 'q')
 {
-{
 putchar(x);
 x++;
 }
 else
 {
 x++;
-}
 }
 }
 putchar('\n');
