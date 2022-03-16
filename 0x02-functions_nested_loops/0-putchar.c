@@ -8,7 +8,14 @@
  */
 int main(void)
 {
-
-putchar("_putchar\n");
+int i = 1;
+char a;
+char b[] = "_putchar\n";
+while (i <= 9)
+{
+a = b[i];
+_putchar(a);
+i++;
+}
 return (0);
 }
