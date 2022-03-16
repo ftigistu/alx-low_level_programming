@@ -1,6 +1,5 @@
 #include "main.h"
 
-/* betty style doc for function main goes there */
 /**
  * main: Prints _putchar with _putchar
  * Description: Prints _putchar with _putchar
@@ -8,10 +7,10 @@
  */
 int main(void)
 {
-int i = 1;
+int i = 0;
 char a;
 char b[] = "_putchar\n";
-while (i <= 9)
+while (i < 9)
 {
 a = b[i];
 _putchar(a);
