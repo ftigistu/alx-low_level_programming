@@ -6,7 +6,7 @@
  *
  * Return: 1 if character is lowercase, 0 otherwise.
  */
-int _abs(int)
+int _abs(int n)
 {
 int x = abs(n);
 _putchar(x);
